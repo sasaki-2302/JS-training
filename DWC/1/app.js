@@ -1,42 +1,16 @@
-// let nickname = "taro"
-// console.log(nickname)
-// nickname = "jiro"
-// console.log(nickname)
+// let alertString;
+// alertString = addString("WebCamp");
+// alert(alertString);
 
-
-// var str = "webcamp" //グローバルスコープ
-
-// function foo() {
-//   console.log(str)
-//   var y = "hello" //関数スコープ
+// function addString(strA){
+//   let addStr = "Hello " + strA;
+//   return addStr;
 // }
 
-// foo()
-// console.log(y)
 
-// function foo() {
-//   let x = "webcamp"
-//   {
-//     let y = "hello webcamp"
-//   }
-//   console.log(x)
-//   console.log(y)
-// }
+// let promptStr = prompt('何か好きな文字を入力して下さい。');
+// alert(promptStr);
 
-// foo()
 
-// for (let i = 0; i < 10; i++) {     
-//   console.log(i) 
-// }
-
-// console.log(i)
-
-var str = "webcamp"
-
-function foo() { 
-  console.log(str)
-  var str = "dmm webcamp"
-  console.log(str)
-}
-
-foo()
+let user_hand = prompt('じゃんけんの手をグー、チョキ、パーから選んでください。');
+alert('あなたの選んだ手は' + user_hand + 'です。');
